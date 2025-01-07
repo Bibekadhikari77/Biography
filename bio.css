@@ -1,0 +1,39 @@
+body {
+    background-image: url('pexels-padrinan-255379.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.bio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.pra {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+}
